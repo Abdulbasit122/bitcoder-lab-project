@@ -1,0 +1,541 @@
+*{ margin: 0;
+ padding: 0;
+ color: white;
+ font-family: sans-serif;
+ }
+
+ /* NAV SECTION STYLING */
+ nav {
+     height: 180px;
+     width: 1280px;
+     background-color: black;
+ }
+
+ #nav-img {
+     height: 100px;
+     width: 150px;
+
+ }
+
+ .nav-home-etc-ul {
+     height: 64px;
+     width: 733px;
+
+     display: flex;
+     justify-content: space-evenly;
+     position: relative;
+     left: 530px;
+     top: -50px;
+
+ }
+
+ .nav-home-etc-li {
+     text-decoration: none;
+     color: aliceblue;
+     font-family: lato, sans-serif;
+     font-size: 17px;
+
+
+ }
+
+ .nav-home-etc-li:hover {
+     color: rgb(107, 156, 234);
+ }
+
+ /* <!-- NAV SECTION END 
+    NOW CONTENT / HERO SECTION --> */
+
+ .first-h-para-img-cover {
+     height: 371px;
+     width: 1012px;
+
+ }
+
+    button-17 {
+            align-items: center;
+            appearance: none;
+            background-color: #03A4Ed;
+            border-radius: 87px;
+            border-style: none;
+            box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+            box-sizing: border-box;
+            color: #f7f9f9;
+            cursor: pointer;
+            display: inline-flex;
+            fill: currentcolor;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            height: 50px;
+            justify-content: center;
+            letter-spacing: .25px;
+            line-height: normal;
+            max-width: 100%;
+            overflow: visible;
+            padding: 2px 24px;
+            position: relative;
+            top: 278px;
+            left: 50px;
+            text-align: center;
+            text-transform: none;
+            transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 200px;
+            will-change: transform, opacity;
+            z-index: 0;
+    
+        }
+    
+        .button-17:hover {
+            background: #F6F9FE;
+            color: #174ea6;
+        }
+    
+        .button-17:active {
+            box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+            outline: none;
+        }
+    
+        .button-17:focus {
+            outline: none;
+            border: 2px solid #4285f4;
+        }
+    
+        .button-17:not(:disabled) {
+            box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+        }
+    
+        .button-17:not(:disabled):hover {
+            box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+        }
+    
+        .button-17:not(:disabled):focus {
+            box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+        }
+    
+        .button-17:not(:disabled):active {
+            box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+        }
+    
+        .button-17:disabled {
+            box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+        }
+    
+    
+    
+        .content-area-cover {
+            height: 385px;
+            width: 1280px;
+            background-color: black;
+        }
+    
+        #h1-1-1 {
+            display: inline-block;
+            font-size: 50px;
+        }
+    
+        .content-h1-h1-h1 {
+            margin-left: 25px;
+            position: relative;
+            top: 47px;
+    
+        }
+    
+        /* IMG SECTION -01 */
+    
+        .content-img-01 {
+            height: 174px;
+            width: 355px;
+            float: right;
+            position: relative;
+            bottom: 295px;
+            right: 25px;
+        }
+    
+        #content-01-img {
+            height: 550px;
+            width: 480px;
+            position: relative;
+            left: 522px;
+        }
+    
+#content-02-img {
+    height: 550px;
+    width: 480px;
+    /* position: relative;
+    left: 522px; */
+}
+
+        /* NOW CEO MESSAGE SECTION STYLING */
+    
+        .ceo-message-cover {
+            height: 400px;
+            width: 1280px;
+            background-color: rgb(0, 0, 0);
+    
+        }
+    
+        #ceo-message-h1 {
+            height: 42px;
+            width: 638px;
+            margin-left: 20px;
+            font-size: 25px;
+            position: relative;
+            top: 25px;
+        }
+    
+        .ceo-msg-para-cover {
+            height: 360px;
+            width: 638px;
+            /* background-color: #03A4Ed;   */
+        }
+    
+        .ceo-msg-para {
+            position: relative;
+            top: 70px;
+            margin-left: 25px;
+            font-size: 22px;
+            word-spacing: 6px;
+        }
+    
+        .ceo-img-02 {
+            height: 400px;
+            width: 340px;
+            float: right;
+        }
+    
+        #ceo-img-02 {
+            height: 410px;
+            width: 420px;
+            display: inline-block;
+            float: right;
+            position: relative;
+            top: -325px;
+            left: 525px;
+            battom:300px;
+        }
+    
+    
+        /* <!-- AFTER SEO MESSAGE THREE CONTAINER ALL COVER DIV --> */
+    
+        .third-content-cover-container {
+            height: 600px;
+            width: 1280px;
+            background-color: #000000;
+            position: relative;
+            top: 386px;
+        }
+    
+    
+        .what-we-do-container {
+            position: relative;
+            top: 15px;
+        }
+    
+        .professional-it-container {
+            margin-left: 20px;
+            padding-top: 65px;
+        }
+    
+        /* THREE CONTAINER STYLING */
+        .three-container-cover {
+            height: 425px;
+            width: 1280px;
+            background-color: rgb(3, 3, 2);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: relative;
+            top: -458px;
+        }
+    
+    
+    
+        .container-st-img {
+            height: 94px;
+            width: 120px;
+            background-color: #081223;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 208px;
+            top: -49px;
+        }
+    
+        .container-st-img:hover {
+            background-color: #3b0c38;
+            transition-duration: 0.9s;
+        }
+    
+    
+    
+    
+        .container-one-cover {
+            height: 410px;
+            width: 375px;
+            background-color: #081223;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    
+        .container-one-cover:hover {
+            background-color: #cddbf3;
+            transition-duration: 0.9s;
+        }
+    
+    
+    
+    
+        .container-one-heading-two {
+            height: 81px;
+            width: 200px;
+            /* background-color: #081223; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .container-one-para {
+            height: 60px;
+            width: 200px;
+            /* background-color: #081223; */
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    
+    
+    
+    
+    
+        .container-one-know-more {
+            height: 40px;
+            width: 180px;
+            /* background-color: #081223; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    
+    
+        /* NOW BITOCDER QUOTE
+        SECTION */
+    
+        .bit-coder-quote-section-cover {
+            height: 540px;
+            width: 1280px;
+            background-color: rgb(3, 3, 2);
+            position: relative;
+            bottom: 458px;
+        }
+    
+        .quote-content-cover {
+            margin-left: 25px;
+        }
+    
+        .client-testimol-section {
+            position: relative;
+            top: 15px;
+        }
+    
+    
+        /* QUOTE IMAGE SLIDER */
+    
+        .quote-img-slider {
+            height: 153px;
+            width: 741px;
+            background-color: #081223;
+            font-size: 26px;
+            word-spacing: 7px;
+            float: right;
+            position: relative;
+            bottom: 201px;
+            left: -68px;
+        }
+    
+    
+        /* NOW MORE ABOUT US SECTION STYLING */
+    
+        .more-about-us-cover {
+            height: 195px;
+            width: 1280px;
+            background-color: #030302;
+            position: relative;
+            bottom: 480px;
+        }
+    
+        .border-about-us {
+            height: 175px;
+            width: 1099px;
+            border: 3px solid #03A4Ed;
+            border-radius: 70px;
+            position: relative;
+            left: 65px;
+            bottom: 69px;
+        }
+    
+        .content-inside-border {
+            height: 45px;
+            width: 600px;
+            background-color: #081223;
+            margin-left: 25%;
+            margin-top: 1.5%;
+        }
+    
+        #border-button {
+            position: relative;
+            top: 41px;
+            left: 176px;
+            background-color: #081223;
+            border: 2px solid #174ea6;
+    
+        }
+    
+        #border-button:hover {
+            border: 2px solid #03a3edcf;
+            color: #F6F9FE;
+        }
+    
+    
+/*     
+        <!-- WHAT WE OFFER SECTION STYLING --- */
+    
+    
+        .what-we-do-cover {
+            height: 530px;
+            width: 1280px;
+            background-color: #030302;
+            position: relative;
+            top: -480px;
+        }
+    
+        .what-we-do-heading {
+            height: 105px;
+            width: 599px;
+            background-color: #030302;
+            margin-left: 25px;
+        }
+    
+        .worksho-img {
+            height: 345px;
+            width: 520px;
+            background-color: #030302;
+            margin-left: 25.5px;
+            margin-top: 43px;
+            display: inline-block;
+        }
+    
+        .work-shop-para {
+            height: 345px;
+            width: 580px;
+            background-color: #030302;
+            display: inline-block;
+            margin-left: 85px;
+        }
+    
+        .work-shop-para p {
+            font-size: 23px;
+            word-spacing: 4.5px;
+        }
+    
+        .equal-words-per-line {
+            width: 400px;
+            /* Set your desired width */
+            text-align: justify;
+        }
+    
+    
+        /* WHY CHOOSE US STYLING */
+    
+        .why-choose-us-cover {
+            height: 700px;
+            width: 1280px;
+            background-color: #030302;
+        }
+    
+        .why-img {
+            height: 590px;
+            width: 540px;
+            display: inline-block;
+            background-color: #030302;
+            margin-left: 30px;
+            position: relative;
+            bottom: 290px;
+        }
+    
+        .why-choose-right-content {
+            height: 650px;
+            width: 640px;
+            background-color: #030302;
+            display: inline-block;
+            margin-left: 25px;
+            position: relative;
+            bottom: -35px;
+        }
+    
+        .div-last-two-cover {
+            position: relative;
+            left: 287px;
+            bottom: 345px;
+        }
+    
+    
+    
+        /* FOOTER SECTION STYLING */
+    
+        .footer-cover {
+            height: 450px;
+            width: 1280px;
+            background-color: #030302;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    
+        .bit-coder-para {
+            height: 300px;
+            width: 320px;
+            background-color: #030302;
+            display: inline-block;
+        }
+    
+    
+        .bit-coder-link {
+            height: 300px;
+            width: 320px;
+            background-color: #030302;
+            display: inline-block;
+        }
+    
+        .bit-coder-contact {
+            height: 300px;
+            width: 320px;
+            background-color: #030302;
+            display: inline-block;
+        }
+    
+        .icon-cover {
+            margin-left: 15px;
+            font-size: 20px;
+            padding: 5px;
+        }
+    
+        .div-links {
+            margin-top: 25px;
+            font-size: 23px;
+        }
+    
+        .div-contact {
+            margin-top: 25px;
+            font-size: 20px;
+        }
